@@ -1,0 +1,218 @@
+.Home-ques{
+  padding: 8vw 5vw;
+  height:max-content;
+}
+
+#butt1{
+  margin-top: -100px;
+}
+
+.quesindi{
+    width: 27%;
+    float: left;
+    padding: 20px;
+    background-color: #eee;
+    border: 2px solid #000; 
+    margin-left:3em;
+    margin-top: -1.5em;
+}
+
+.quesblock {
+  	display: flex;
+	
+}
+
+.quesblock-child {
+	flex: 0.8;
+	margin: 2%;
+	padding: 3%;
+	border: 2px double white;
+	background-color: white;
+	border-radius: 13px;
+}
+
+.quesblock-child-button {
+	flex: 0.2;
+	display: inline-flex;
+	flex-direction: column;
+	margin: 2%;
+}
+
+.question-code {
+	margin-bottom: 10px;
+	height: auto;
+}
+
+.code-text {
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.question-desc {
+	flex: 1;
+	align-items: center;
+	margin-bottom: 10px;
+	height: auto;
+}
+
+.question-ex {
+	flex: 1;
+	display: flex;
+	margin-top: 1%;
+}
+
+.question-exinout {
+	flex: 0.5;
+	align-items: center;
+	height: auto;
+}
+
+.inout-text {
+	white-space: pre-line;
+}
+
+.solve {
+	float: right;
+	margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.avaicomp{
+    margin-top: 4em;
+}
+
+.mft{
+    margin-top: 2em;
+}
+
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 3px;
+  height: 50px;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+/* CSS */
+.button-5 {
+	float: right;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 10px;
+  margin-right:10px;
+  min-height: 2rem;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #f7c94b 0%, #ee9e0a 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(228, 173, 23, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}

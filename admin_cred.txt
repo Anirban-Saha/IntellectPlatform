@@ -1,0 +1,2 @@
+userId = admin
+password = wi9k52pm5al1q47b

@@ -1,0 +1,156 @@
+body{
+  margin:0;
+  background-color: #fff;
+}
+
+.code {
+  height: 100vh;
+  background-color: #fff;
+  background-blend-mode: lighten;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.buttons{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.button1{
+  margin-left: 60px;
+}
+
+.codeoutput{
+  width:50%;
+}
+.desbutt{
+  background-color: #1696eb; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.userCode {
+  margin-left: 60px;
+  width: 30%;
+}
+
+.button-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.score {
+  margin-left: 60px;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.score-text {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.codearea{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.selectlang{
+  width: 250px;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.outputblock{
+  white-space: pre-line;
+  width: 330px;
+  height: 321px;
+  margin-right: 55px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.inputblock{
+  width: 263px;
+  height: 321px;
+  margin-right: 55px;
+}
+
+.inout{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+#input {
+  margin-left: 65px;
+  background: #cccccc52;
+  width: 100%;
+  height: 321px;
+  resize: vertical;
+  font-size: 17px;
+}
+
+.h1in{
+  margin-left: 65px;
+}
+
+.check{
+  margin-left: 60px;
+  margin-top: 30px;  
+}
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #f7c94b 0%, #ee9e0a 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(228, 173, 23, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.footer {
+  background-color: #212222;
+  border-top:2px solid rgb(15, 15, 15);
+  position: fixed;
+  width: 100%;
+  height:50px;
+  margin-left: 0;
+  bottom: 0;
+  color: rgb(253, 253, 253);
+  font-size: 15px;
+ }
+
+ .pfoot{
+  text-align: center;
+ }

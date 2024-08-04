@@ -1,0 +1,193 @@
+.row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.mindimg{
+  margin-top: 50px;
+  margin-left: 45px;
+  height: 25%;
+  width:23%;
+}
+
+.inlogo{
+  margin-top: 3em;
+  margin-right: 1em;
+}
+
+.h2dept{
+  color: white;
+}
+
+.h3dept{
+  margin-top: 1vw !important;
+  color: white;
+}
+
+.hexagon-gallery>img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.py{
+  margin-left: 18px;
+  margin-top:35px;
+}
+
+.jav{
+  margin-left: 65px;
+  margin-top:20px;
+}
+
+.h2dept{
+  margin-top: -50px;
+  margin-left: 95px;
+}
+
+.h3dept{
+  margin-top: -10px;
+  margin-left: 250px;
+}
+
+.hex1{
+  background-color: #fffefe;
+}
+
+.hexagon-gallery {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 14px;
+  padding-bottom: 50px;
+}
+
+.hex {
+  display: flex;
+  position: relative;
+  width: 240px;
+  height: 265px;
+  /**/
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hex:first-child {
+  grid-row-start: 1;
+  grid-column: 2 / span 2;
+}
+
+
+.hex:nth-child(2) {
+  grid-row-start: 1;
+  grid-column: 4 / span 2;
+}
+
+.hex:nth-child(3) {
+  grid-row-start: 1;
+  grid-column: 6 / span 2;
+}
+
+.hex:nth-child(4) {
+  grid-row-start: 1;
+  grid-column: 8 / span 2;
+}
+
+@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-50px); } }
+@keyframes bounce1 { 0% { transform: translateY(-50px); } 100% { transform: translateY(0); } }
+.hex { animation: bounce 1.2s infinite alternate; }
+.hex1 { animation: bounce1 1.2s infinite alternate; }
+
+.h1tit{
+  width:50%;
+}
+
+
+  
+
+  .h1tit .h1head{
+    font-size: 10vw;
+    color: rgba(7, 7, 7, 0.1);
+    background-image: url("https://s31.postimg.cc/yaze1agjv/abstract-background-canvas-249798.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+    background-clip:text;
+    animation: animate 15s linear infinite;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 900;
+  }
+  
+    @keyframes animate {
+      0%{
+        background-position: left 0px top 10px;
+      }
+      40%{
+        background-position: left 800px top 10px;
+    }
+  }
+
+  body {
+    background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+    -webkit-animation: Background 25s ease infinite;
+    -moz-animation: Background 25s ease infinite;
+    animation: Background 25s ease infinite;
+  }
+  
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  .full-screen {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://i.imgur.com/wCG2csZ.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    /* works with row or column */
+
+  }
+  
+  
